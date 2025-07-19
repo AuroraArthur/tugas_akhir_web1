@@ -1,0 +1,58 @@
+:root {
+  --primary-red: #dc3545;
+  --secondary-red: #c82333;
+  --dark-red: #b21e2f;
+  --light-red: #f8d7da;
+}
+
+.bg-red-primary {
+  background-color: var(--primary-red) !important;
+}
+
+.bg-red-secondary {
+  background-color: var(--secondary-red) !important;
+}
+
+.bg-red-dark {
+  background-color: var(--dark-red) !important;
+}
+
+.bg-red-light {
+  background-color: var(--light-red) !important;
+}
+
+.text-red-primary {
+  color: var(--primary-red) !important;
+}
+
+.text-red-secondary {
+  color: var(--secondary-red) !important;
+}
+
+.btn-red {
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: var(--secondary-red);
+  border-color: var(--secondary-red);
+  color: white;
+}
+
+.border-red {
+  border-color: var(--primary-red) !important;
+}
+
+.badge-red {
+  background-color: var(--primary-red) !important;
+}
+
+.card-red {
+  border-color: var(--primary-red);
+}
+
+.navbar-red {
+  background-color: var(--light-red) !important;
+}
